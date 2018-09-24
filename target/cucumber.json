@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2177482276,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseDriver.beforeEveryScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User be able to purchase Material",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-purchase-material;user-be-able-to-purchase-material",
+        "after": [
+          {
+            "result": {
+              "duration": 91296176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11465196867,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on YourLogo Home page",
+            "match": {
+              "location": "MyStoreOrder.i_am_on_YourLogo_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119004107369,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Women Tab",
+            "match": {
+              "location": "MyStoreOrder.i_click_on_Women_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19486,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to select T-shirt",
+            "match": {
+              "location": "MyStoreOrder.i_should_be_able_to_select_T_shirt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18159,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I shoud able to purchase the Material",
+            "match": {
+              "location": "MyStoreOrder.i_shoud_able_to_purchase_the_Material()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@ShopDress"
+          }
+        ]
+      }
+    ],
+    "name": "As a User I should be able to purchase Material",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-purchase-material",
+    "keyword": "Feature",
+    "uri": "shopdress.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Shop"
+      }
+    ]
+  }
+]
